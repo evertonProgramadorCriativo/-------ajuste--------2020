@@ -1,0 +1,311 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+.section_BiKe_Fit {
+  width : 1360px;
+  height: 525px;
+}
+
+.ImagemPrincipal__BiKe_Fit {
+  width : 1352px;
+  height: 525px;
+}
+
+.BiKe_Fit--large_PolygonRed {
+  height  : auto;
+  width   : 1351px;
+  position: relative;
+  top     : -153px;
+}
+
+.containerInforBike_Fit--large_PolygonRed {
+  position      : relative;
+  top           : -361px;
+  left          : 348px;
+  align-items   : center;
+  display       : flex;
+  flex-direction: column;
+  width         : 670px;
+  height        : 185px;
+}
+
+.textBikeFit {
+  margin-bottom: 10px;
+  font-size    : 25px;
+  font-family  : "Montserrat", sans-serif;
+  font-weight  : 800;
+  color        : #fff;
+}
+
+.textBikeFit__subTitulo {
+  margin-bottom: 10px;
+  font-size    : 18px;
+  color        : #fff;
+  font-family  : "Montserrat", sans-serif;
+  font-weight  : lighter;
+}
+
+.textBikeFit__Paragrafo {
+  font-size  : 19px;
+  color      : #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/*-----------------------------*/
+/*-section_Explicando_BikeFit--*/
+/*-----------------------------*/
+
+.section_Explicando_BikeFit {
+  height          : 1250px;
+  background-color: #f7f7f7;
+}
+
+.Explicando_BikeFit--titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size  : 48px;
+  color      : #90210e;
+  height     : 58px;
+  width      : 552px;
+  position   : relative;
+  top        : 235px;
+  left       : 50px;
+}
+
+.containerExplicando_BikeFit--paragrafo {
+  height  : 411px;
+  width   : 757px;
+  position: relative;
+  top     : 270px;
+  left    : 50px;
+}
+
+.paragrafo--item {
+  color      : #270d09;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size  : 22px;
+}
+
+/*-----------------------------*/
+/*---BikeFit--Subparagrafo-----*/
+/*-----------------------------*/
+.containerExplicando_BikeFit--Subparagrafo {
+  height  : 187px;
+  width   : 502px;
+  position: relative;
+  top     : 228px;
+  left    : 47px;
+}
+
+.Subparagrafo--item00 {
+  display      : flex;
+  margin-bottom: 8px;
+}
+
+.Subparagrafo--item00__icone {
+  margin-right: 10px;
+}
+
+.Subparagrafo--item00__text {
+  color      : #270d09;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size  : 22px;
+}
+
+/*--------------------------------*/
+/*---BikeFit--containerImagen-----*/
+/*--------------------------------*/
+
+.Explicando_BikeFit--containerImagens {
+  display       : flex;
+  align-items   : center;
+  flex-direction: column;
+  height        : 445px;
+  width         : 500px;
+  top           : -411px;
+  left          : 829px;
+  position      : relative;
+}
+
+.Explicando_BikeFit--imagens__item00 {
+  width        : 482px;
+  height       : 270px;
+  margin-bottom: 20px;
+}
+
+.Explicando_BikeFit--imagens__item01 {
+  width : 482px;
+  height: 159px;
+}
+
+/*--------------------------------*/
+/*---BikeFit--containerImagen-----*/
+/*--------------------------------*/
+
+.AgendaBikeFit_Container {
+  width   : 321px;
+  height  : 255px;
+  position: relative;
+  top     : -313px;
+  left    : 600px;
+}
+
+.AgendaBikeFit_titulo {
+  color      : #90210e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size  : 40px;
+  width      : 293px;
+}
+
+.AgendaBikeFit_titulo--ajute {
+  color      : #90210e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size  : 40px;
+}
+
+.AgendaBikeFit_container {
+  margin-top: 10px;
+}
+
+.AgendaBikeFit_Dinheiro {
+  top        : 15px;
+  position   : relative;
+  color      : #595b60;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size  : 38px;
+}
+
+.AgendaBikeFit_preco {
+  position   : relative;
+  top        : -60px;
+  left       : 52px;
+  color      : #595b60;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size  : 97px;
+}
+
+.AgendaBikeFit_preco--moedas {
+  position   : relative;
+  top        : -100px;
+  left       : 46px;
+  color      : #595b60;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size  : 38px;
+}
+
+/*---------------------------------*/
+/*---formularioBikeAgendamento-----*/
+/*---------------------------------*/
+
+.formularioBikeAgendamento {
+  position: relative;
+  top     : -533px;
+  left    : 991px;
+  width   : 325px;
+  height  : 267px;
+}
+
+.formularioBikeAgendamento__nome {
+  height       : 40px;
+  width        : 325px;
+  font-size    : 14px;
+  padding      : 4px;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+  color        : #270d09;
+  font-family  : "Montserrat", sans-serif;
+  font-weight  : 400;
+  font-size    : 16px;
+}
+
+.formularioBikeAgendamento__email {
+  height       : 40px;
+  width        : 325px;
+  font-size    : 14px;
+  padding      : 4px;
+  margin-bottom: 5px;
+  color        : #270d09;
+  font-family  : "Montserrat", sans-serif;
+  font-weight  : 400;
+  font-size    : 16px;
+}
+
+.formularioBikeAgendamento__celular {
+  height       : 40px;
+  width        : 179px;
+  margin-right : 9px;
+  font-size    : 14px;
+  padding      : 4px;
+  margin-bottom: 5px;
+  color        : #270d09;
+  font-family  : "Montserrat", sans-serif;
+  font-weight  : 400;
+  font-size    : 16px;
+}
+
+.formularioBikeAgendamento__data {
+  height   : 40px;
+  width    : 179px;
+  font-size: 14px;
+  padding  : 4px;
+}
+
+.formularioBikeAgendamento__Bike {
+  font-size: 18px;
+}
+
+.containerInput {
+  display      : flex;
+  margin-bottom: 5px;
+}
+
+.formularioBikeAgendamento__AgendarAgora {
+  height          : 70px;
+  width           : 325px;
+  font-size       : 20px;
+  color           : white;
+  background-color: #246abc;
+  border          : none;
+  border-radius   : 5px;
+  margin-top      : 8px;
+}
+
+/*---------------------------*/
+/*---informaçõesWhatsApp-----*/
+/*---------------------------*/
+.informaçõesWhatsApp_Container {
+  height      : 50px;
+  width       : 317px;
+  margin-right: 12px;
+  position    : relative;
+  top         : -537px;
+  left        : 999px;
+}
+
+.informaçõesWhatsApp_whatsAppText {
+  color    : #3de36a;
+  font-size: 23px;
+  position : relative;
+  display  : flex;
+  top      : -50px;
+  left     : 56px;
+}
+
+/*---------------*/
+/*---Footer------*/
+/*---------------*/
+
+.ajusteFooteBikeFit {
+  margin-top: -147px;
+}

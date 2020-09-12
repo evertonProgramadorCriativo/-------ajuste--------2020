@@ -1,0 +1,132 @@
+/*----------------------------------*/
+/*---section_Revisao_Periodica-----*/
+/*---------------------------------*/
+
+.section_Revisao_Periodica {
+  height: 450px;
+  width : auto;
+}
+
+.Revisao_Periodica--Imagens {
+  position: relative;
+  left    : 456px;
+  top     : 7px;
+  width   : 420px;
+  height  : 288px;
+}
+
+.containerTitulo--Revisao_Periodica {
+  position: relative;
+  top     : 27px;
+  left    : 349px;
+  height  : 58px;
+  width   : 625px;
+}
+
+.titulo_containerTitulo--Revisao_Periodica {
+  color        : #952917;
+  font-size    : 25px;
+  font-weight  : 800;
+  margin-bottom: 8px;
+  font-family  : "Montserrat", sans-serif;
+
+  color: #952917;
+  width: 700px;
+}
+
+.descricaoDeServico--Revisao_Periodica {
+  position: relative;
+
+  left       : 353px;
+  top        : 20px;
+  font-family: "Montserrat", sans-serif;
+  color      : #666666;
+  font-size  : 16px;
+  font-weight: 400;
+}
+
+.containerSetaParaBaixoVermelhaComParagrafo {
+  width      : 200px;
+  left       : 557px;
+  top        : 47px;
+  position   : relative;
+  align-items: center;
+
+  display       : flex;
+  flex-direction: column;
+}
+
+.Paragrafo {
+  font-family  : "Montserrat", sans-serif;
+  color        : #b93f2a;
+  font-size    : 18px;
+  font-weight  : 700;
+  margin-bottom: 20px;
+}
+
+/*---------------------------------*/
+/*---section_Opções_DE_Servico-----*/
+/*---------------------------------*/
+.OpcaoDeServico {
+  /*Disponivel para uso Para mobile*/
+}
+
+.containerOpcaoGrupo {
+  position       : relative;
+  top            : -49px;
+  display        : flex;
+  justify-content: space-around;
+}
+
+.imagemVermelha {
+  position     : relative;
+  top          : 107px;
+  margin-bottom: -329px;
+  width        : 1351px;
+}
+
+.containerOpcao {
+  /*Disponivel para uso Para mobile*/
+}
+
+.tituloOpcaoDeServico {
+  font-family  : "Montserrat", sans-serif;
+  color        : #ffffff;
+  font-size    : 46px;
+  font-weight  : 700;
+  margin-bottom: 20px;
+}
+
+.tituloDeServico {
+  font-family  : "Montserrat", sans-serif;
+  color        : #ffffff;
+  font-size    : 14px;
+  font-weight  : 400;
+  margin-bottom: 20px;
+}
+
+.butaoSubmit {
+  font-family     : "Montserrat", sans-serif;
+  color           : #ffffff;
+  font-size       : 18px;
+  font-weight     : 700;
+  border          : 3px solid #fff;
+  padding         : 4px;
+  border-radius   : 5px;
+  background-color: transparent;
+}
+
+/*-------------------*/
+/*---Utilitarios-----*/
+/*-------------------*/
+.u--margin-Left60 {
+  margin-left: 60px;
+}
+
+.u--margin-Left140 {
+  margin-left: 140px;
+}
+
+.AjusteFooterRevisaoPeriodica {
+  position: relative;
+}

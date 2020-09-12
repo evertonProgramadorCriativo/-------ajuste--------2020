@@ -1,0 +1,359 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width   : 1366px;
+  margin  : 0;
+  padding : 0;
+  overflow: hidden;
+}
+
+/*--------------*/
+/*---NavBar-----*/
+/*--------------*/
+.header-navBar {
+  background-color: #666666;
+  display         : flex;
+  justify-content : space-between;
+  width           : auto;
+  height          : 86px;
+  align-items     : center;
+}
+
+.logo {
+  color      : white;
+  width      : auto;
+  height     : auto;
+  min-height : 59.42px !important;
+  min-width  : 291px !important;
+  position   : relative;
+  margin-left: 47px;
+}
+
+.menu {
+  width          : 500px;
+  display        : flex;
+  justify-content: space-around;
+  align-items    : center;
+  position       : relative;
+  left           : -65px;
+}
+
+.menu--item {
+  display: inline;
+  width  : 88px;
+}
+
+.menu--item>* {
+  color: #f7f7f7;
+
+  margin-right   : -24px;
+  font-family    : "Montserrat", sans-serif;
+  font-weight    : 400;
+  font-size      : 16px;
+  padding-bottom : 60px;
+  text-decoration: none;
+}
+
+/*-----------------*/
+/*----DropDown-----*/
+/*-----------------*/
+.dropdown {
+  position: relative;
+  display : inline-block;
+}
+
+.dropdown-content {
+  display         : none;
+  top             : 90px;
+  left            : -80px;
+  position        : absolute;
+  background-color: #ffffff;
+  min-width       : 241px;
+  border          : solid 0.5px #bcbcbc;
+  box-shadow      : 0px 0.5px rgba(211, 211, 211, 0.6);
+  min-height      : 161.22px;
+  z-index         : 679;
+}
+
+.dropdown-content--Setablack {
+  position: relative;
+  top     : -57px;
+  left    : 94px;
+}
+
+.dropdown-content--SetaBranca {
+  position: relative;
+  top     : -23px;
+  z-index : 999;
+  width   : 45px;
+  height  : 34px;
+  margin  : 0;
+  padding : 0px;
+  left    : 53px;
+}
+
+.EscolhaTipoDeRevisao {
+  font-family  : "Montserrat", sans-serif;
+  color        : #393939;
+  font-size    : 18px;
+  font-weight  : 400;
+  margin-bottom: 17px;
+  position     : relative;
+  top          : -20px;
+}
+
+.EscolhaTipoDeRevisao--tipo {
+  font-family: "Montserrat", sans-serif;
+  color      : #393939;
+  font-size  : 18px;
+  font-weight: 700;
+  margin     : 0 7px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.EscolhaTipoDeRevisao:hover {
+  background-color: #e8e8e8;
+}
+
+/*---------------------------*/
+/*---section_Leva_E_Traz-----*/
+/*---------------------------*/
+
+.section_Leva_E_Traz {
+  height: 450px;
+  width : auto;
+}
+
+.transporte_Leva_E_Traz {
+  position: relative;
+  left    : 456px;
+  top     : -23px;
+  width   : 440px;
+  height  : 330px;
+}
+
+.containerTitulo_Leva_E_Traz {
+  position: relative;
+  top     : -40px;
+  left    : 582px;
+  height  : 58px;
+  width   : 242px;
+}
+
+.titulo_Leva_E_Traz {
+  color        : #952917;
+  font-size    : 25px;
+  font-weight  : 800;
+  margin-bottom: 8px;
+}
+
+.subtitulo_Leva_E_Traz {
+  font-family: "Montserrat", sans-serif;
+  color      : #952917;
+  font-size  : 18px;
+  font-weight: lighter;
+}
+
+.descricaoDeServico_Leva_E_Traz {
+  position   : relative;
+  left       : 385px;
+  font-family: "Montserrat", sans-serif;
+  color      : #666666;
+  font-size  : 19px;
+  font-weight: 400;
+}
+
+/*---------------------------*/
+/*-----sectionPolygonRed-----*/
+/*---------------------------*/
+.sectionPolygonRed {
+  height: 368px;
+  width : auto;
+}
+
+.SetaParaBaixo_PolygonRed {
+  position: relative;
+  height  : 56px;
+  left    : 656px;
+  top     : 33px;
+  width   : 30px;
+}
+
+.containerInfor--large_PolygonRed {
+  position: relative;
+
+  top: -273px;
+}
+
+.curvaturaDeImagem--large_PolygonRed {
+  height: auto;
+  width : 1351px;
+}
+
+.iconeBranco_PolygonRed {
+  position  : relative;
+  top       : 71px;
+  left      : 648px;
+  max-width : 52.31px;
+  max-height: 96.58px;
+  width     : auto;
+  height    : auto;
+}
+
+.textajusteIconeBranco_PolygonRed {
+  position   : relative;
+  left       : 219px;
+  font-family: "Montserrat", sans-serif;
+  color      : #ffffff;
+  font-size  : 20px;
+}
+
+.container__informacaoAdicionais {
+  align-items: center;
+}
+
+.textIconeBranco {
+  width      : 670px;
+  height     : 96px;
+  left       : 363px;
+  top        : 79px;
+  position   : relative;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color      : #ffffff;
+  font-size  : 20px;
+  font-weight: 400;
+}
+
+/*---------------------------*/
+/*---Section_Preco_E_Prazo---*/
+/*---------------------------*/
+
+.SectionInformações_Preco_E_Prazo {
+  background-color: #e8e8e8;
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+  height          : 206px;
+}
+
+.items_Preco_E_Prazo--img {
+  margin-bottom: 10px;
+}
+
+.items_Preco_E_Prazo--text {
+  font-family: "Montserrat", sans-serif;
+  color      : #1a1a1a;
+  font-size  : 20px;
+  font-weight: 400;
+}
+
+.items_Preco_E_Prazo {
+  height        : 90px;
+  font-size     : 20px;
+  width         : 271px;
+  align-items   : center;
+  display       : flex;
+  flex-direction: column;
+}
+
+/*---------------------------*/
+/*---Section_Contato---------*/
+/*---------------------------*/
+
+.Section_Contato {
+  background-color: #ffffff;
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+  height          : 206px;
+}
+
+.textoLocalDaloja {
+  font-family  : "Montserrat", sans-serif;
+  color        : #1a1a1a;
+  font-size    : 20px;
+  font-weight  : 600;
+  margin-bottom: 10px;
+}
+
+.NumeroDeContato {
+  font-family: "Montserrat", sans-serif;
+  color      : #1a1a1a;
+  font-size  : 20px;
+  font-weight: 400;
+}
+
+.icones__Phones {
+  margin-bottom: 10px;
+}
+
+/*------------------*/
+/*-------Footer-----*/
+/*------------------*/
+.footer {
+  height: 369px;
+}
+
+.curvaturaDeImagem--large_PolygonDARKGRAY {
+  height: auto;
+  width : 1351px;
+}
+
+.containerInfor--large_PolygonDARKGRAY {
+  position: relative;
+  top     : -187px;
+  width   : 300px;
+  left    : 915px;
+}
+
+.logo__footer {
+  color      : white;
+  width      : 180px;
+  height     : auto;
+  min-width  : 319px !important;
+  position   : relative;
+  top        : -150px;
+  margin     : -100px;
+  margin-left: 47px;
+}
+
+.menuFooter {
+  display        : flex;
+  justify-content: space-around;
+  align-items    : center;
+  margin-bottom  : 10px;
+}
+
+.menuFooter__Items {
+  color          : #ffffff;
+  font-size      : 16px;
+  list-style-type: none;
+  margin-bottom  : 10px;
+}
+
+.ImagensSocial {
+  display    : flex;
+  align-items: center;
+  position   : relative;
+  left       : 188px;
+}
+
+.ImagensSocial__Icones {
+  margin-left: 20px;
+}
+
+/*----------------------*/
+/*------Utilitarios-----*/
+/*----------------------*/
+
+.u--marginRigth__44px {
+  margin-right: -44px;
+}
